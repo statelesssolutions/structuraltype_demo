@@ -5,18 +5,6 @@ import java.io._
 object Demo {
 
   def main(args: Array[String]) = {
-
-/*    val generators:Map[String,HasNextInt] = Map(
-      "sequence" -> new SequentialGenerator(),
-      "positive random" -> new PositiveRandomGenerator(),
-      "meaning of life" -> new MeaningOfLifeGenerator(),
-      "util.Random" -> new util.Random()
-    )
-
-    generators.foreach(kv => {
-      println(kv._1 + " - next 10 ints --- ")
-      println((1 to 10).map(i => kv._2.nextInt).mkString(", "))
-    })*/
     println("sequence")
     printIt(new SequentialGenerator())
     println("positive random")
@@ -47,4 +35,5 @@ class PositiveRandomGenerator {
 
 class MeaningOfLifeGenerator {
   def nextInt(): Int = 42
+  def gargleBlaster = println("Your brain has been smashed out by a slice of lemon wrapped round a large gold brick")
 }
