@@ -1,4 +1,4 @@
-typeclass_demo
+Scala structural type demo
 ==============
 
-Scala Type Class Demo
+A trivial example of Scala structural types as explained in [Scala Next Steps - Structural Types](http://blog.statelesssolutions.com/2012/07/12/scala-next-ste…ructural-types/)
