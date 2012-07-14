@@ -1,4 +1,4 @@
-package com.statelesssolutions.demo.typeclass
+package com.statelesssolutions.demo.structuraltype
 
 import java.io._
 
